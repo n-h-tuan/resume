@@ -1,7 +1,8 @@
 <template>
   <div class="wrapper" :class="{ 'nav-open': $sidebar.showSidebar }">
     <!-- <notifications></notifications> -->
-
+    <!-- cursor shadow -->
+    <cursor-shadow />
     <side-bar
       :sidebar-item-color="sidebarBackground"
       :sidebar-background-image="sidebarBackgroundImage"
@@ -56,11 +57,12 @@
 
 <script>
 // import TopNavbar from "@/pages/Layout/TopNavbar.vue";
-import TopNavbar from "../Layout/TopNavbar.vue";
-import ContentFooter from "../Layout/ContentFooter.vue";
+import TopNavbar from "./TopNavbar.vue";
+import ContentFooter from "./ContentFooter.vue";
 import DashboardContent from "@/pages/Layout/Content";
 import MobileMenu from "@/pages/Layout/MobileMenu.vue";
 import FixedPlugin from "@/pages/Layout/Extra/FixedPlugin.vue";
+import CursorShadow from "./CursorShadow.vue";
 
 export default {
   components: {
@@ -68,7 +70,8 @@ export default {
     DashboardContent,
     ContentFooter,
     // MobileMenu,
-    // FixedPlugin
+    // FixedPlugin,
+    CursorShadow,
   },
   data() {
     return {
@@ -139,6 +142,9 @@ export default {
 };
 </script>
 <style lang="scss" scoped>
+.wrapper {
+  position: relative;
+}
 .sidebar-avatar {
   border-radius: 50%;
 }

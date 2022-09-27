@@ -6,7 +6,7 @@
     </h1>
     <div class="sub-color text-justify">
       <p style="font-size:15pt; line-height:1.5">
-        I am a big fan of football and gymnastic which are not only Improve my
+        I am a big fan of football and gym which are not only Improve my
         health but also help me make friends and build relationship in many
         majors of society. Moreover, on the weekend, hanging out and having a
         coffee to shoot the breeze is not exceptional.

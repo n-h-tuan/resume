@@ -10,7 +10,7 @@
           HCM City University Foreign Language – Information Technology
         </h4>
         <h5 class="sub-color font-weight-bold">
-          Bachelor Information Technology
+          Bachelor of Cyber Security
         </h5>
         <h5 class="sub-color font-italic">Academic Rating: Good</h5>
       </div>
@@ -20,16 +20,19 @@
         </h5>
       </div>
     </div>
-    <div class="text-center my-3 mx-auto w-50 half-hr">
-    </div>
+    <div class="text-center my-3 mx-auto w-50 half-hr" />
     <div class="d-flex justify-content-between flex-wrap">
       <div>
-        <h4 class="text-uppercase font-weight-bold sub-color">TOEIC IIG</h4>
-        <h5 class="sub-color font-italic">Score: 800</h5>
+        <h4 class="text-uppercase font-weight-bold sub-color">
+          Conestoga College
+        </h4>
+        <h5 class="sub-color font-weight-bold">
+          Degree of Computer Programming  
+        </h5>
       </div>
       <div>
         <h5 class="main-color font-weight-bold">
-          December 2018 - October 2020
+          September 2022 - Current
         </h5>
       </div>
     </div>
