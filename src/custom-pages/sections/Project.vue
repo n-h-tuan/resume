@@ -6,9 +6,14 @@
     <div v-for="(project, index) in projects" :key="index">
       <project-card :dataBackgroundColor="project.headerColor">
         <template slot="header">
-          <h2 class="sub-name text-uppercase" style="font-size: 30pt">
-            {{ project.name }}
-          </h2>
+          <a :href="project.link" target="_blank">
+            <h2
+              class="header-title sub-name text-uppercase"
+              style="font-size: 30pt"
+            >
+              {{ project.name }}
+            </h2>
+          </a>
         </template>
         <template slot="content">
           <md-table v-model="project.detail" :table-header-color="'red'">
@@ -96,5 +101,8 @@ export default {
 };
 </script>
 
-<style>
+<style scope>
+.header-title:hover {
+  cursor: pointer !important;
+}
 </style>
