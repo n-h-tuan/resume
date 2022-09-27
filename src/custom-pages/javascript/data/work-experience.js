@@ -1,5 +1,21 @@
 export default [
     {
+        time: "June 2021 - August 2022",
+        company: "Vietlinkads",
+        company_link: "https://vietlinkads.com",
+        position: "PHP Developer",
+        tasks: [
+            "Worked and communicated with teammates and Japanese Customers.",
+            "Developed English skills with English environment.",
+            "Approached new systems and technologies and professional processes.",
+            "Kept expanding knowledge and mastering the role in developing software.",
+        ],
+        tools: [
+            "Backend Developer: <strong>PHP | Laravel | MySQL | Redis</strong>",
+            "Server: <strong>Gitlab Pipline | New Relic | Backlog | Redmine</strong>"
+        ]
+    },
+    {
         time: "August 2018 - Jun 2021",
         company: "VLAB J.S.C",
         company_link: "https://vlab.tech",
@@ -18,22 +34,6 @@ export default [
             "Backend Developer: <strong>PHP | Laravel | MySQL | PostgreSQL | PostGis</strong>",
             "Frontend Developer: <strong>HTML5 | CSS | SCSS | VueJS | Javascript | JQuery</strong>",
             "Server: <strong>CentOS | Ubuntu | Linux | Nginx | Apache</strong>"
-        ]
-    },
-    {
-        time: "June 2021 - August 2022",
-        company: "Vietlinkads",
-        company_link: "https://vietlinkads.com",
-        position: "PHP Developer",
-        tasks: [
-            "Worked and communicated with teammates and Japanese Customers.",
-            "Developed English skills with English environment.",
-            "Approached new systems and technologies and professional processes.",
-            "Kept expanding knowledge and mastering the role in developing software.",
-        ],
-        tools: [
-            "Backend Developer: <strong>PHP | Laravel | MySQL | Redis</strong>",
-            "Server: <strong>Gitlab Pipline | New Relic | Backlog | Redmine</strong>"
         ]
     }
 ]

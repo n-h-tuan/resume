@@ -7,7 +7,7 @@
     <div class="d-flex justify-content-between flex-wrap">
       <div>
         <h4 class="text-uppercase font-weight-bold sub-color">
-          HCM City University Foreign Language – Information Technology
+          HCM University Foreign Language – Information Technology
         </h4>
         <h5 class="sub-color font-weight-bold">
           Bachelor's degree - Cyber Security
