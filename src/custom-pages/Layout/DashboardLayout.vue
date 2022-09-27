@@ -49,6 +49,7 @@
     <div class="main-panel">
       <top-navbar></top-navbar>
       <dashboard-content></dashboard-content>
+      <content-footer></content-footer>
     </div>
   </div>
 </template>
@@ -56,7 +57,7 @@
 <script>
 // import TopNavbar from "@/pages/Layout/TopNavbar.vue";
 import TopNavbar from "../Layout/TopNavbar.vue";
-import ContentFooter from "@/pages/Layout/ContentFooter.vue";
+import ContentFooter from "../Layout/ContentFooter.vue";
 import DashboardContent from "@/pages/Layout/Content";
 import MobileMenu from "@/pages/Layout/MobileMenu.vue";
 import FixedPlugin from "@/pages/Layout/Extra/FixedPlugin.vue";
@@ -65,7 +66,7 @@ export default {
   components: {
     TopNavbar,
     DashboardContent,
-    // ContentFooter,
+    ContentFooter,
     // MobileMenu,
     // FixedPlugin
   },

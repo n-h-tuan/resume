@@ -34,17 +34,25 @@
     <div class="text-uppercase mb-3">
       <h4 class="sub-name">
         <span class="sub-color">
-          15/3P Trung My Tan Xuan street, Trung Chanh ward, Hoc Mon
-          district, Ho Chi Minh city
+          {{address}}
         </span>
       </h4>
       <h4 class="sub-name">
-        <span class="sub-color">+84 - 961244398 · &nbsp;</span>
-        <span class="main-color">nguyen.h.tuan1997@gmail.com</span>
+        <a :href="`tel:${phone}`"><span class="sub-color" call="">{{phone}} · &nbsp;</span></a>
+        <a :href="`mailto:${email}`"><span class="main-color" call="">{{email}}&nbsp;</span></a>
+        <!-- <span class="main-color">nguyen.h.tuan1997@gmail.com</span> -->
       </h4>
     </div>
     <div>
       <div>
+        <a href="https://www.linkedin.com/in/tuan-nguyen-583174191" target="_blank" class="mr-3">
+          <button
+            class="btn btn-success rounded-circle bg-main-color"
+            style="width:60px; height:60px"
+          >
+            <i class="fab fa-linkedin fa-2x"></i>
+          </button>
+        </a>
         <a href="https://github.com/nguyenledly" target="_blank" class="mr-3">
           <button
             class="btn btn-success rounded-circle bg-main-color"
@@ -68,7 +76,15 @@
 
 <script>
 import { VueTyper } from "vue-typer";
+import about from "../javascript/data/about";
 export default {
+  data(){
+    return {
+      "address": about.address,
+      "phone": about.phone,
+      "email": about.email,
+    };
+  },
   components: {
     VueTyper
   }

@@ -25,7 +25,7 @@ import resumeStore from './custom-pages/javascript/store/store';
 const router = new VueRouter({
   routes, // short for routes: routes
   linkExactActiveClass: "nav-item active",
-  mode: 'history',
+  mode: 'hash',
   scrollBehavior(to, from, savedPosition) {
     if (savedPosition) {
       return savedPosition;

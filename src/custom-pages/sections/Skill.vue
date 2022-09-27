@@ -9,61 +9,55 @@
         style="font-size:1.5rem"
       >Programming Languages and Tools</h2>
       <div class="icon-container">
-        <span class="skill-icon mr-4">
+        <span class="skill-icon mr-4" title="PHP">
           <i class="devicon-php-plain colored"></i>
         </span>
-        <span class="skill-icon mr-4">
+        <span class="skill-icon mr-4" title="Laravel">
           <i class="devicon-laravel-plain colored"></i>
         </span>
-        <span class="skill-icon mr-4 ani">
+        <span class="skill-icon mr-4 ani" title="VueJS">
           <i class="devicon-vuejs-plain colored"></i>
         </span>
-        <span class="skill-icon mr-4">
+        <span class="skill-icon mr-4 ani" title="ReactJS">
+          <i class="devicon-react-original colored"></i>
+        </span>
+        <span class="skill-icon mr-4" title="HTML5">
           <i class="devicon-html5-plain colored"></i>
         </span>
-        <span class="skill-icon mr-4">
+        <span class="skill-icon mr-4" title="CSS3">
           <i class="devicon-css3-plain colored"></i>
         </span>
-        <span class="skill-icon mr-4">
+        <span class="skill-icon mr-4" title="Javascript">
           <i class="devicon-javascript-plain colored"></i>
         </span>
-        <span class="skill-icon mr-4 ani">
-          <i class="devicon-npm-original-wordmark colored"></i>
-        </span>
-        <span class="skill-icon mr-4 ani">
+        <span class="skill-icon mr-4 ani" title="Bootstrap">
           <i class="devicon-bootstrap-plain colored"></i>
         </span>
-        <span class="skill-icon mr-4 ani">
+        <span class="skill-icon mr-4 ani" title="MySQL">
           <i class="devicon-mysql-plain colored"></i>
         </span>
-        <span class="skill-icon mr-4 ani">
+        <span class="skill-icon mr-4 ani" title="PostgreSQL">
           <i class="devicon-postgresql-plain colored"></i>
         </span>
-        <span class="skill-icon mr-4 ani">
+        <span class="skill-icon mr-4 ani" title="GIT">
           <i class="devicon-git-plain colored"></i>
         </span>
-        <span class="skill-icon mr-4 ani">
+        <span class="skill-icon mr-4 ani" title="Github">
           <i class="devicon-github-plain colored"></i>
         </span>
-        <span class="skill-icon mr-4 ani">
+        <span class="skill-icon mr-4 ani" title="Gitlab">
           <i class="devicon-gitlab-plain colored"></i>
         </span>
-        <span class="skill-icon mr-4">
-          <i class="devicon-windows8-original colored"></i>
-        </span>
-        <span class="skill-icon mr-4 ani">
+        <span class="skill-icon mr-4 ani" title="CSharp">
           <i class="devicon-csharp-plain colored"></i>
         </span>
-        <span class="skill-icon mr-4 ani">
-          <i class="devicon-photoshop-plain colored"></i>
-        </span>
-        <span class="skill-icon mr-4 ani">
+        <span class="skill-icon mr-4 ani" title="Linux">
           <i class="devicon-linux-plain colored"></i>
         </span>
-        <span class="skill-icon mr-4 ani">
+        <span class="skill-icon mr-4 ani" title="Nginx">
           <i class="devicon-nginx-original colored"></i>
         </span>
-        <span class="skill-icon mr-4 ani">
+        <span class="skill-icon mr-4 ani" title="Apache">
           <i class="devicon-apache-line-wordmark colored"></i>
         </span>
       </div>

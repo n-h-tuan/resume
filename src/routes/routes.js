@@ -23,11 +23,6 @@ const routes = [
         component: MyResume
       },
       {
-        path: "github",
-        name: "My Github",
-        redirect: "https://google.com.vn"
-      },
-      {
         path: "*",
         name: "404",
         redirect: "/resume"
