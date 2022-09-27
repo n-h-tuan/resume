@@ -91,6 +91,10 @@
           <md-icon>done</md-icon>
           <span class="sub-name sub-color ml-1" style="font-size:14pt">Design Pattern</span>
         </h3>
+        <h3 class="my-0">
+          <md-icon>done</md-icon>
+          <span class="sub-name sub-color ml-1" style="font-size:14pt">Code Pipeline</span>
+        </h3>
       </div>
     </div>
   </div>
