@@ -10,7 +10,7 @@
           HCM City University Foreign Language – Information Technology
         </h4>
         <h5 class="sub-color font-weight-bold">
-          Bachelor of Cyber Security
+          Bachelor's degree - Cyber Security
         </h5>
         <h5 class="sub-color font-italic">Academic Rating: Good</h5>
       </div>
@@ -27,7 +27,7 @@
           Conestoga College
         </h4>
         <h5 class="sub-color font-weight-bold">
-          Degree of Computer Programming  
+          Diploma - Computer Programming  
         </h5>
       </div>
       <div>
