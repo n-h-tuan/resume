@@ -125,7 +125,6 @@ export default {
       if (this.currentURL) {
         let currentSectionID = this.currentURL.split("#")[1];
         if (currentSectionID == section_id) {
-          console.log("section_id_2", section_id);
           return true;
         }
         return false;
@@ -136,7 +135,6 @@ export default {
   watch: {
     $route(to, from) {
       this.currentURL = window.location.href;
-      console.log("watch", this.currentURL);
     },
   },
 };

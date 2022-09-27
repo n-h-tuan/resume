@@ -5,7 +5,6 @@
 <script>
 export default {
   mounted() {
-    console.log(123);
     var shadow = document.getElementById("cursorShadow");
     document.addEventListener("mousemove", (e) => {
       shadow.style.left = e.pageX - 29 + "px";
