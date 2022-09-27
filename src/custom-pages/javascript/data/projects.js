@@ -24,7 +24,7 @@ export default [
             {
                 key: "Responsibilities",
                 value:
-                    "• Creating use case for project.<br>• Making user interface in Home Page and Map Page.<br>• Making APIs to get, create, update, and delete object.<br>• Handling interacting events with objects on Maps.<br>• Drawing new object on Maps and handling properties to send API.<br>• Optimized performance and making realtime experience for user.<br>• Dividing job into small pieces and assigning to each member.<br>• Deploying source to test and fix bugs."
+                    "• Created use case for project.<br>• Made the user interface in Home Page and Map Page.<br>• Made APIs to get, create, update, and delete object.<br>• Handled interacting events with objects on Maps.<br>• Drew new object on Maps and handling properties to send API.<br>• Optimized performance and making realtime experience for user.<br>• Divided a job into small pieces and assigning to each member.<br>• Deployed a source to test and fix bugs."
             },
             {
                 key: "Technologies",
