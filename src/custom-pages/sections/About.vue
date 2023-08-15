@@ -14,7 +14,6 @@
         <vue-typer
           :text="[
                 'Fullstack developer',
-                'Laravel - Vuejs Master',
                 'Dedication and Innovation',
                 'A Kindness Teammate!'
               ]"

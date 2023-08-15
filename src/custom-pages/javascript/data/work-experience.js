@@ -31,8 +31,8 @@ export default [
             "Kept study new technology such as Vue.js, Flutter.",
         ],
         tools: [
-            "Backend Developer: <strong>PHP | Laravel | MySQL | PostgreSQL | PostGis</strong>",
-            "Frontend Developer: <strong>HTML5 | CSS | SCSS | VueJS | Javascript | JQuery</strong>",
+            "Backend Developer: <strong>NodeJS | PHP | Laravel | MySQL | PostgreSQL | PostGis</strong>",
+            "Frontend Developer: <strong>HTML5 | CSS | SCSS | VueJS | ReactJS | Javascript | JQuery</strong>",
             "Server: <strong>CentOS | Ubuntu | Linux | Nginx | Apache</strong>"
         ]
     }
