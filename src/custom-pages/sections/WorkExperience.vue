@@ -6,9 +6,8 @@
     <div id="timeline_1">
       <timeline>
         <div
-          v-for="(
-            { time, company, company_link, position, tasks, tools }, index
-          ) in workExperiences"
+          v-for="({ time, company, company_link, position, tasks, tools },
+          index) in workExperiences"
           :key="`work-experience-${index}`"
         >
           <timeline-title
@@ -70,19 +69,19 @@ import workExperiences from "../javascript/data/work-experience";
 export default {
   data() {
     return {
-      workExperiences,
+      workExperiences
     };
   },
   components: {
     Timeline,
     TimelineItem,
-    TimelineTitle,
-  },
+    TimelineTitle
+  }
 };
 </script>
 
 <style>
-strong{
+strong {
   font-weight: 700;
 }
 </style>

@@ -1,6 +1,9 @@
 <template>
   <md-card>
-    <md-card-header :data-background-color="dataBackgroundColor" class="text-center">
+    <md-card-header
+      :data-background-color="dataBackgroundColor"
+      class="text-center"
+    >
       <slot name="header"></slot>
     </md-card-header>
 
@@ -16,14 +19,13 @@
 
 <script>
 export default {
-  props:{
-    dataBackgroundColor:{
+  props: {
+    dataBackgroundColor: {
       type: String,
-      default: "green",
+      default: "green"
     }
   }
 };
 </script>
 
-<style>
-</style>
+<style></style>

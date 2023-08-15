@@ -27,7 +27,7 @@
           Conestoga College
         </h4>
         <h5 class="sub-color font-weight-bold">
-          Diploma - Computer Programming  
+          Diploma - Computer Programming
         </h5>
       </div>
       <div>

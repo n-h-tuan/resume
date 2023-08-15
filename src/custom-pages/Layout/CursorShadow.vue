@@ -10,17 +10,17 @@ export default {
     let yShadow = 0;
     let scaleShadow = 1;
     let velocity = 1;
-    document.addEventListener("mousemove", (e) => {
+    document.addEventListener("mousemove", e => {
       // get velocity
       velocity = Math.ceil((Math.abs(e.movementX) + Math.abs(e.movementY)) / 2);
-      scaleShadow = 1 + (velocity / 100);
+      scaleShadow = 1 + velocity / 100;
       // get cursor position
       xShadow = e.x - 25;
       yShadow = e.y - 25;
       shadow.style.display = "block";
       shadow.style.transform = `translate3d(${xShadow}px, ${yShadow}px, 0px) scale(${scaleShadow})`;
     });
-  },
+  }
 };
 </script>
 

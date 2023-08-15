@@ -1,4 +1,3 @@
-
 <template>
   <!-- :class="{ 'nav-item active router-link-active': isActive }" -->
   <li class="md-list-item">
@@ -37,8 +36,8 @@
 export default {
   inject: {
     autoClose: {
-      default: true,
-    },
+      default: true
+    }
   },
   props: {
     link: {
@@ -47,22 +46,22 @@ export default {
         return {
           name: "",
           path: "",
-          icon: "",
+          icon: ""
         };
-      },
+      }
     },
     tag: {
       type: String,
-      default: "router-link",
+      default: "router-link"
     },
     isActive: {
       type: Boolean,
-      default: false,
+      default: false
     },
     href: {
       type: String,
-      default: '',
-    },
+      default: ""
+    }
   },
   mounted() {},
   methods: {
@@ -86,9 +85,9 @@ export default {
       } else {
         return "md-list-item-router md-list-item-container md-button-clean";
       }
-    },
+    }
   },
-  computed: {},
+  computed: {}
 };
 </script>
 <style></style>

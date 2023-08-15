@@ -6,8 +6,14 @@
     :style="sidebarStyle"
   >
     <div class="logo" title="Dark Mode">
-      <div class="simple-text logo-mini m-0 d-flex align-content-center justify-content-center" @click="toggleDarkMode()">
-        <div class="logo-img d-flex align-items-center justify-content-center" :class="{'dark-mode':isDarkMode}">
+      <div
+        class="simple-text logo-mini m-0 d-flex align-content-center justify-content-center"
+        @click="toggleDarkMode()"
+      >
+        <div
+          class="logo-img d-flex align-items-center justify-content-center"
+          :class="{ 'dark-mode': isDarkMode }"
+        >
           <i v-if="isDarkMode" class="md-icon md-icon-font">dark_mode</i>
           <i v-else class="md-icon md-icon-font black-color">brightness_5</i>
         </div>
@@ -78,13 +84,13 @@ export default {
       autoClose: this.autoClose
     };
   },
-  methods:{
-    toggleDarkMode(){
-      this.$store.dispatch('toggleDarkMode');
+  methods: {
+    toggleDarkMode() {
+      this.$store.dispatch("toggleDarkMode");
     }
   },
   computed: {
-    ...mapGetters(['isDarkMode']),
+    ...mapGetters(["isDarkMode"]),
     sidebarStyle() {
       return {
         backgroundImage: `url(${this.sidebarBackgroundImage})`

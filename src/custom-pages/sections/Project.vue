@@ -85,19 +85,19 @@ export default {
     ProjectCard,
     Carousel,
     Slide,
-    LightBox,
+    LightBox
   },
   data() {
     return {
       siteLoading: require("@/assets/img/loading.gif"),
-      projects: projects,
+      projects: projects
     };
   },
   methods: {
     openGallery(index, lightBoxIndex) {
       this.$refs.lightbox[lightBoxIndex].showImage(index);
-    },
-  },
+    }
+  }
 };
 </script>
 

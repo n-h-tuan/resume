@@ -13,10 +13,10 @@
       >
         <vue-typer
           :text="[
-                'Fullstack developer',
-                'Dedication and Innovation',
-                'A Kindness Teammate!'
-              ]"
+            'Fullstack developer',
+            'Dedication and Innovation',
+            'A Kindness Teammate!'
+          ]"
           :repeat="Infinity"
           :shuffle="false"
           initial-action="typing"
@@ -33,18 +33,26 @@
     <div class="text-uppercase mb-3">
       <h4 class="sub-name">
         <span class="sub-color">
-          {{address}}
+          {{ address }}
         </span>
       </h4>
       <h4 class="sub-name">
-        <a :href="`tel:${phone}`"><span class="sub-color" call="">{{phone}} · &nbsp;</span></a>
-        <a :href="`mailto:${email}`"><span class="main-color" call="">{{email}}&nbsp;</span></a>
+        <a :href="`tel:${phone}`"
+          ><span class="sub-color" call="">{{ phone }} · &nbsp;</span></a
+        >
+        <a :href="`mailto:${email}`"
+          ><span class="main-color" call="">{{ email }}&nbsp;</span></a
+        >
         <!-- <span class="main-color">nguyen.h.tuan1997@gmail.com</span> -->
       </h4>
     </div>
     <div>
       <div>
-        <a href="https://www.linkedin.com/in/tuan-nguyen-583174191" target="_blank" class="mr-3">
+        <a
+          href="https://www.linkedin.com/in/tuan-nguyen-583174191"
+          target="_blank"
+          class="mr-3"
+        >
           <button
             class="btn btn-success rounded-circle bg-main-color"
             style="width:60px; height:60px"
@@ -77,11 +85,11 @@
 import { VueTyper } from "vue-typer";
 import about from "../javascript/data/about";
 export default {
-  data(){
+  data() {
     return {
-      "address": about.address,
-      "phone": about.phone,
-      "email": about.email,
+      address: about.address,
+      phone: about.phone,
+      email: about.email
     };
   },
   components: {

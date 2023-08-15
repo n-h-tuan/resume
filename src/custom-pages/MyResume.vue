@@ -36,10 +36,10 @@ export default {
     WorkExperience,
     Skill,
     Hobby,
-    Project,
+    Project
   },
   computed: {
-    ...mapGetters(["isDarkMode"]),
+    ...mapGetters(["isDarkMode"])
   },
   watch: {
     isDarkMode(newVal, oldVal) {
@@ -52,7 +52,7 @@ export default {
         containerResume.classList.remove("dark-mode");
         body.classList.remove("dark-mode");
       }
-    },
-  },
+    }
+  }
 };
 </script>

@@ -71,7 +71,7 @@ export default {
     ContentFooter,
     // MobileMenu,
     // FixedPlugin,
-    CursorShadow,
+    CursorShadow
   },
   data() {
     return {
@@ -79,7 +79,7 @@ export default {
       sidebarBackgroundImage: require("@/assets/img/sidebar-bg.jpg"),
       sidebarAvatar: require("@/assets/img/me.jpg"),
       sectionObserver: null,
-      currentURL: null,
+      currentURL: null
     };
   },
   mounted() {
@@ -93,7 +93,7 @@ export default {
 
       const options = {
         rootMargin: "-10%",
-        threshold: 0.2,
+        threshold: 0.2
       };
       this.sectionObserver = new IntersectionObserver(
         this.sectionObserverHandler,
@@ -102,7 +102,7 @@ export default {
 
       // Observe each section
       const sections = document.querySelectorAll("section");
-      sections.forEach((section) => {
+      sections.forEach(section => {
         this.sectionObserver.observe(section);
       });
     },
@@ -130,13 +130,13 @@ export default {
         return false;
       }
       return false;
-    },
+    }
   },
   watch: {
     $route(to, from) {
       this.currentURL = window.location.href;
-    },
-  },
+    }
+  }
 };
 </script>
 <style lang="scss" scoped>
