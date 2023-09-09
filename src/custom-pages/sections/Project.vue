@@ -6,7 +6,7 @@
     <div v-for="(project, index) in projects" :key="index">
       <project-card :dataBackgroundColor="project.headerColor">
         <template slot="header">
-          <a :href="project.link" target="_blank">
+          <a :href="project.link" target="_blank" class="text-project">
             <h2
               class="header-title sub-name text-uppercase"
               style="font-size: 30pt"
@@ -101,9 +101,27 @@ export default {
 };
 </script>
 
-<style scope>
+<style lang="scss" scope>
 .header-title:hover {
   cursor: pointer !important;
+}
+.text-project {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  &::after {
+    content: "";
+    margin: 0px auto;
+    height: 3px;
+    width: 0px;
+    background: transparent;
+    transition: width 0.5s ease, background-color 0.5s ease;
+  }
+  &:hover:after {
+    width: 60%;
+    background: white;
+    gap: 10px;
+  }
 }
 .vue-lb-content {
   max-width: calc(100% - 120px);
