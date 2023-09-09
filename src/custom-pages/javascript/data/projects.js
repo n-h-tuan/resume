@@ -214,5 +214,65 @@ export default [
         srcset: "" // Optional for displaying responsive images
       }
     ]
+  },
+  {
+    name: "Personal Project: Oceans - Kids",
+    link: "https://ocean-kids.web.app/",
+    headerColor: "blue",
+    detail: [
+      {
+        key: "Customer",
+        value: "Everyone who loves marine world "
+      },
+      {
+        key: "Description",
+        value:
+          "This website will help everyone, especially children, understand more about marine life with a diversity of species and protect their blue world against pollution."
+      },
+      {
+        key: "Team size",
+        value: "1 people"
+      },
+      {
+        key: "Position",
+        value: "Developer"
+      },
+      {
+        key: "Responsibilities",
+        value:
+          "• Designed the UI.<br>• Developed the web app<br>• Inserted the data to Firestore<br>• Retreived the data from Firestore and display on the website"
+      },
+      {
+        key: "Technologies",
+        value:
+          "• ReactJS<br>• Firebase"
+      }
+    ],
+    carousel: [
+      {
+        thumb: require("@/assets/img/oceans_kids_1.jpg"),
+        src: require("@/assets/img/oceans_kids_1.jpg"),
+        caption: "", // Optional
+        srcset: "" // Optional for displaying responsive images
+      },
+      {
+        thumb: require("@/assets/img/oceans_kids_2.jpg"),
+        src: require("@/assets/img/oceans_kids_2.jpg"),
+        caption: "", // Optional
+        srcset: "" // Optional for displaying responsive images
+      },
+      {
+        thumb: require("@/assets/img/oceans_kids_3.jpg"),
+        src: require("@/assets/img/oceans_kids_3.jpg"),
+        caption: "", // Optional
+        srcset: "" // Optional for displaying responsive images
+      },
+      {
+        thumb: require("@/assets/img/oceans_kids_4.jpg"),
+        src: require("@/assets/img/oceans_kids_4.jpg"),
+        caption: "", // Optional
+        srcset: "" // Optional for displaying responsive images
+      }
+    ]
   }
 ];
