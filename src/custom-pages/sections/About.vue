@@ -13,9 +13,9 @@
       >
         <vue-typer
           :text="[
-            'Fullstack developer',
+            'Fullstack Developer',
             'Dedication and Innovation',
-            'A Kindness Teammate!'
+            'A Kind Teammate!'
           ]"
           :repeat="Infinity"
           :shuffle="false"
