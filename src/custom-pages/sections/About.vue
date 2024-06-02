@@ -49,7 +49,7 @@
     <div>
       <div>
         <a
-          href="https://www.linkedin.com/in/tuan-nguyen-583174191"
+          href="https://www.linkedin.com/in/tuan-h-n/"
           target="_blank"
           class="mr-3"
         >
@@ -60,7 +60,7 @@
             <i class="fab fa-linkedin fa-2x"></i>
           </button>
         </a>
-        <a href="https://github.com/nguyenledly" target="_blank" class="mr-3">
+        <a href="https://github.com/n-h-tuan/" target="_blank" class="mr-3">
           <button
             class="btn btn-success rounded-circle bg-main-color"
             style="width:60px; height:60px"
@@ -68,7 +68,7 @@
             <i class="fab fa-github-alt fa-2x"></i>
           </button>
         </a>
-        <a href="https://www.facebook.com/nguyen.h.tuan1997" target="_blank">
+        <a href="https://www.facebook.com/nguyen.h.tuan0306" target="_blank">
           <button
             class="btn btn-success rounded-circle bg-main-color"
             style="width:60px; height:60px"

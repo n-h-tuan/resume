@@ -5,7 +5,7 @@
         <ul>
           <li>
             <a
-              href="https://www.linkedin.com/in/tuan-nguyen-583174191/"
+              href="https://www.linkedin.com/in/tuan-h-n/"
               target="blank"
             >
               About Me
